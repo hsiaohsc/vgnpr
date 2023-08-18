@@ -277,9 +277,16 @@ if __name__ == "__main__":
     # parser.add_argument("--use_color", dest='use_color', action='store_true')
     args = parser.parse_args()
 
-    os.makedirs('results/painterly_rendering/' + args.exp_name, exist_ok=False)
-    os.makedirs('results/painterly_rendering/' + args.exp_name + '/svgs', exist_ok=False)
-    os.makedirs('results/painterly_rendering/' + args.exp_name + '/imgs', exist_ok=False)
+    # os.makedirs('results/painterly_rendering/' + args.exp_name, exist_ok=False)
+    # os.makedirs('results/painterly_rendering/' + args.exp_name + '/svgs', exist_ok=False)
+    # os.makedirs('results/painterly_rendering/' + args.exp_name + '/imgs', exist_ok=False)
+    exist_ok = False
+    if args.exp_name == 'test':
+        print("Is test")
+        exist_ok = True
+    os.makedirs('results/painterly_rendering/' + args.exp_name, exist_ok=exist_ok)
+    os.makedirs('results/painterly_rendering/' + args.exp_name + '/svgs', exist_ok=exist_ok)
+    os.makedirs('results/painterly_rendering/' + args.exp_name + '/imgs', exist_ok=exist_ok)
 
 
     f = open("results/painterly_rendering/" + args.exp_name + "/report.txt", 'w')
