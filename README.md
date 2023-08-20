@@ -1,7 +1,7 @@
 # Vector Graphics Non-photorealistic Rendering
 向量圖形非寫實電腦計算繪製
 
-本研究受到 [Differentiable Rasterizer for Vector Graphics](https://people.csail.mit.edu/tzumao/diffvg)的啟發，使用彩帶(向量不封閉曲線)、色塊(向量封閉曲線)以及圓形(向量圓形)等向量初始形狀來實作向量圖形的非寫實電腦計算繪製。
+本研究受到 [Differentiable Rasterizer for Vector Graphics](https://people.csail.mit.edu/tzumao/diffvg) 的啟發，使用彩帶(向量不封閉曲線)、色塊(向量封閉曲線)以及圓形(向量圓形)等向量初始形狀來實作向量圖形的非寫實電腦計算繪製。
 
 ![teaser](https://github.com/hsiaohsc/vgnpr/assets/42900685/9db42de7-cd1e-4b3c-965e-5be7e3323ad8)
 
