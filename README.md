@@ -1,17 +1,18 @@
 # Vector Graphics Non-photorealistic Rendering
 向量圖形非寫實電腦計算繪製
 
+[Project Page](https://hsiaohsc.github.io/thesis/)
+
 This work is inspired by [Differentiable Rasterizer for Vector Graphics](https://people.csail.mit.edu/tzumao/diffvg), using vector-based initial shapes such as strips (unclosed vector paths), blobs (closed vector paths), and circles (vector circles) to create non-photorealistic vector graphics.
 
 本研究受到 [Differentiable Rasterizer for Vector Graphics](https://people.csail.mit.edu/tzumao/diffvg) 的啟發，使用彩帶(向量不封閉曲線)、色塊(向量封閉曲線)以及圓形(向量圓形)等向量初始形狀來實作向量圖形的非寫實電腦計算繪製。
 
 ![teaser](https://github.com/hsiaohsc/vgnpr/assets/42900685/9db42de7-cd1e-4b3c-965e-5be7e3323ad8)
 
-[Project Page](https://hsiaohsc.github.io/thesis/)
 
 # Colab GUI Version
 To use this code as a tool to generate non-photorealistic vector results, we provide a simple GUI user interface using Google Colab. \
-[Use Google Colab to run this code](https://colab.research.google.com/drive/1Hcilmt9R5BzWolY8kBaYIzj3joWbM3oH?usp=sharing)
+[Run this code on Google Colab](https://colab.research.google.com/drive/1Hcilmt9R5BzWolY8kBaYIzj3joWbM3oH?usp=sharing)
 
 # Install
 ```
@@ -41,7 +42,7 @@ python setup.py build --debug install
 cd apps
 ```
 
-**Vector Paths** 
+**Vector Paths** \
 including strips (unclosed vector paths) and  blobs (closed vector paths)
 ```
 painterly_rendering_time.py [-h] [--exp_name EXP_NAME] [--num_paths NUM_PATHS]
