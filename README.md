@@ -42,7 +42,7 @@ python setup.py build --debug install
 cd apps
 ```
 
-**Vector Paths** \
+## **Vector Paths** \
 including strips (unclosed vector paths) and  blobs (closed vector paths)
 ```
 painterly_rendering_time.py [-h] [--exp_name EXP_NAME] [--num_paths NUM_PATHS]
@@ -61,7 +61,7 @@ Blob
 python painterly_rendering_time.py imgs/fuyue/01.jpg --exp_name test --num_paths 500 --max_width 5.0 --num_iter 200 --use_blob
 ```
 
-**Vector Circle**
+## **Vector Circle**
 ```
 painterly_rendering_circle.py [-h] [--exp_name EXP_NAME] [--num_circles NUM_CIRCLES]
                        [--max_radius MAX_RADIUS] [--max_radius_factor MAX_RADIUS_FACTOR] [--use_lpips_loss]
