@@ -42,7 +42,8 @@ python setup.py build --debug install
 cd apps
 ```
 
-## **Vector Paths** \
+## **Vector Paths** 
+
 including strips (unclosed vector paths) and  blobs (closed vector paths)
 ```
 painterly_rendering_time.py [-h] [--exp_name EXP_NAME] [--num_paths NUM_PATHS]
